@@ -1,6 +1,5 @@
 resource "aws_instance" "myec2" {
   ami                    = "ami-0866a3c8686eaeeba"
-  instance_type          = "t2.medium"
   key_name               = "onlaptop"
   vpc_security_group_ids = ["sg-091013677fa48d826"]
   root_block_device {
